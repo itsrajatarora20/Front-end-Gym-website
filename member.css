@@ -1,0 +1,84 @@
+body
+{
+	background-attachment: cover;
+}
+
+#submission
+{
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 10px 10px 10px 10px black;
+	text-align: center;
+	font-size: 28px;	
+	position: absolute;
+	top: -55px;
+	left: 650px;
+	width:400px;
+}
+
+#submission #DOB
+{
+	width: 210px;
+}
+
+input
+{
+	margin: 11px;
+	outline: none;
+	font-size: 17px;
+	border:none;
+	border-bottom: 1px solid black;
+	border-radius:12px;
+	height: 32px;
+}
+
+#submission #submit
+{
+	position: absolute;
+	right: 30px;
+}
+
+.btn
+{
+	margin: auto;
+	width: 120px;
+	color:white;
+}
+
+.container
+{
+	margin: 25px;
+	display: flex;
+	color: white;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.container .much .line
+{
+	margin: auto;
+	width:60px;
+	border:1px solid grey;
+	box-shadow: 1px 1px 5px 0px #888888
+
+}
+.much
+{
+	background-color: rgba(255,0,0,0.4);
+	color: white;
+	border-radius: 30px 15px;
+	font-size: 16px;
+	width: 250px;
+	height: 300px;
+	margin: 30px 30px;
+	transition: all 1s;
+	opacity: 0.9;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+.much:hover
+{
+	transform: scale(1.2);
+	opacity: 1;
+}

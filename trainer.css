@@ -1,0 +1,33 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	height:80px;
+}
+
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.much
+{
+	width: 250px;
+	height: 300px;
+	margin: 20px 20px;
+	transition: all 1s;
+	opacity: 0.9;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+.much:hover
+{
+	transform: scale(1.2);
+	opacity: 1;
+}
